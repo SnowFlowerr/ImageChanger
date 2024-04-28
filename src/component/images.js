@@ -9,13 +9,26 @@ import img8 from "../assets/8.jpeg"
 import img9 from "../assets/9.jpeg"
 import img10 from "../assets/10.jpeg"
 import img11 from "../assets/11.jpeg"
+import img12 from "../assets/12.jpeg"
+import img13 from "../assets/13.jpeg"
+import img14 from "../assets/14.jpeg"
+import img15 from "../assets/15.jpeg"
+import img16 from "../assets/16.jpeg"
+import img17 from "../assets/17.jpeg"
+import img18 from "../assets/18.jpeg"
+import img19 from "../assets/19.jpeg"
+import img20 from "../assets/20.jpeg"
 const img = [
     img1, img2,
     img3, img4,
     img5, img6,
     img7, img8,
     img9, img10,
-    img11
+    img11, img12,
+    img13, img14,
+    img15, img16,
+    img17, img18,
+    img19, img20,
 ]
 console.log(img);
 export default img;

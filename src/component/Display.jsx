@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import image from "./images"
 import styles from "./Display.module.css"
 
@@ -10,7 +10,7 @@ export default function Display() {
             <img src={image[ind]} className={styles.imgs} alt={`img${ind}`}/>
             </div>
             <div>
-                <button className={styles.btn} onClick={()=>setInd(Math.floor(Math.random()*11))}>Change Image</button>
+                <button className={styles.btn} onClick={()=>setInd(Math.floor(Math.random()*image.length))}>Change Image</button>
             </div>
         </div>
 
