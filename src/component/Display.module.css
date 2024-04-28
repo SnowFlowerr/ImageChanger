@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.bigbox{
+    border: 2px solid rgb(255, 255, 255);
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imgs{
+    width: 60vw;
+    height: 60vh;
+    color: white;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:transparent;
+    color: white;
+    border: none;
+}
