@@ -3,16 +3,16 @@ body{
 }
 .bigbox{
     border: 2px solid rgb(255, 255, 255);
-    width: 60vw;
+    width: 100vw;
     margin: auto;
-    margin-top: 10vh;
     color: white;
     border-radius: 20px;
     overflow: hidden;
+    box-sizing: border-box;
 }
 .imgs{
-    width: 60vw;
-    height: 70vh;
+    width: 100vw;
+    height: 92dvh;
     color: white;
 }
 .btn{
@@ -24,20 +24,6 @@ body{
     color: white;
     border: none;
 }
-@media screen and (max-width:600px) {
-    .bigbox{
-        border: 2px solid rgb(255, 255, 255);
-        width: 100vw;
-        margin: auto;
-        margin-top: 0px;
-        height: 100dvh;
-        color: white;
-        border-radius: 20px;
-        overflow: hidden;
-    }
-    .imgs{
-        width: 100vw;
-        height: 92dvh;
-        color: white;
-    }
+.btn:active{
+    background-color:rgb(63, 62, 62);
 }
